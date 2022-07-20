@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+  </head>
+  <body>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/t1로고.jpg" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/gen.g_logo.png" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/DK_logo.jpg" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/DRX_logo.JPG" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/kt_logo.JPG" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/NS_logo.png" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/kwangdong_logo.jpg" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/Fredit_logo.png" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/Liov_log.jpg" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="main.html"><img src="./logo_image/hanwha_logo.jpg" /></a>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
