@@ -16,6 +16,9 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
 }
 .nav-item {
   padding: 15px 22px;

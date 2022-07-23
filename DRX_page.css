@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(48, 158, 247);
+  background-color: #5a8dff;
 }
 .main {
   max-width: 800px;
@@ -12,10 +12,13 @@ body {
 .cartegory {
   margin: 0;
   padding: 0;
-  background-color: rgb(48, 158, 247);
+  background-color: #5a8dff;
   list-style: none;
   display: flex;
   justify-content: center;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
 }
 .nav-item {
   padding: 15px 22px;
@@ -37,24 +40,24 @@ body {
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 .intro img {
   width: 100%;
   height: 100%;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 .main h2 {
   margin: 0;
   border: 0;
   text-align: left;
   color: white;
-  background-color: rgb(48, 158, 247);
+  background-color: #5a8dff;
   /* border-top: 2px solid white; */
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
   text-align: center;
 }
 table.type01 {
@@ -68,7 +71,7 @@ table.type01 th {
   padding: 10px;
   font-weight: bold;
   /* vertical-align: top; */
-  border: 2px solid white;
+  border: 2px solid black;
   color: white;
 }
 table.type01 td {
@@ -76,7 +79,8 @@ table.type01 td {
   height: 100%;
   padding: 10px;
   vertical-align: top;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid black;
+  color: black;
   text-align: left;
+  background-color: white;
 }

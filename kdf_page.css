@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #0ec7b5;
+  background-color: rgb(249, 67, 0);
 }
 .main {
   max-width: 800px;
@@ -12,7 +12,7 @@ body {
 .cartegory {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: rgb(249, 67, 0);
   list-style: none;
   display: flex;
   justify-content: center;
@@ -30,20 +30,20 @@ body {
 .nav-item a {
   text-align: center;
   text-decoration: none;
-  color: #0ec7b5;
+  color: white;
 }
 .intro {
   /* text-align: center; */
-  background-image: url(./logo_image/DK_benner.jpg);
+  background-image: url(./logo_image/kdf_benner.png);
   width: 796px;
   height: 400px;
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-position: center;
+  background-color: white;
   border-top: 2px solid black;
   border-left: 2px solid black;
   border-right: 2px solid black;
-  background-color: white;
 }
 .intro img {
   width: 100%;
@@ -54,8 +54,7 @@ body {
   margin: 0;
   border: 0;
   text-align: left;
-  color: #0ec7b5;
-  background-color: black;
+  color: white;
   /* border-top: 2px solid white; */
   border-left: 2px solid black;
   border-right: 2px solid black;
